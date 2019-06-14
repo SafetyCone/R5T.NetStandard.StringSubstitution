@@ -1,0 +1,4 @@
+R5T.NetStandard.StringSubstitution.Construction - A construction console entry-point for the R5T.NetStandard.StringSubstitution library (A library containing string-substitution functionality.).
+
+Goals
+
