@@ -19,13 +19,13 @@ namespace R5T.NetStandard
             return itemsBySubstitutionToken;
         }
 
-        ///// <summary>
-        ///// Given a mapping of items-by-value, adds item-by-substitution-token pairs to the specified destination mapping of items-by-substitution-token.
-        ///// </summary>
-        //public static void PerformTokenization<T>(this IStringSubstitutionScheme stringSubstitutionScheme, Dictionary<string, T> itemsByValue, Dictionary<string, T> destination)
-        //{
-        //    //itemsByValue.ForEach(x => destination.Add(stringSubstitutionScheme.CreateSubstitutionToken(x.Key), x.Value));
-        //}
+        /// <summary>
+        /// Given a mapping of items-by-value, adds item-by-substitution-token pairs to the specified destination mapping of items-by-substitution-token.
+        /// </summary>
+        public static void PerformTokenization<T>(this IStringSubstitutionScheme stringSubstitutionScheme, Dictionary<string, T> itemsByValue, Dictionary<string, T> destination)
+        {
+            //itemsByValue.ForEach(x => destination.Add(stringSubstitutionScheme.CreateSubstitutionToken(x.Key), x.Value));
+        }
 
         /// <summary>
         /// Interprets a target string by performing any substitutions using the provided substitution-tokens and a function for getting the substitution for a given substitution-token.
